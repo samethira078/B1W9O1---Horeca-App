@@ -1,0 +1,100 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.container{
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+}
+.menu ul li{
+	text-decoration: none;
+	list-style-type: none;
+	display: block;
+	float: left;
+	text-align: center;
+	margin-top: 10px;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+	margin: 0px 20px;
+}
+.menu{
+	grid-row: 2/3;
+	grid-column: 1/7;
+	margin: 0 auto;
+	
+}
+.backgroundkop{
+	grid-row: 1/2;
+	grid-column: 1/7;
+}
+.backgroundkop img{
+	width: 100%;
+	height: 400px;
+}
+.logo{
+	grid-row: 1/2;
+	grid-column: 1/7;
+	display: block;
+	float: left;
+	zoom: 50%;
+	padding-top: 50px;
+	padding-left: 100px;
+}
+.lijn{
+	border-bottom: 1px solid lightgrey;
+	grid-row: 3/4;
+	grid-column: 1/7;
+	padding-top: 10px;
+}
+.actief{
+	border-bottom: 1px solid red;
+}
+.bestellingen{
+	grid-row: 5/6;
+	grid-column: 2/6;
+	margin: 0 auto;
+}
+.bestellingen img{
+	zoom: 50%;
+	margin: 20px 100px;
+}
+.bestellingen h1{
+	text-align: center;
+	padding-top: 20px;
+}
+.bestellingen span{
+	display: inline-block;
+	text-align: center;
+}
+.bestellingen span p{
+	font-size: 20px;
+	font-weight: bold;
+}
+.bollen{
+	grid-row: 6/7;
+	grid-column: 2/6;
+	padding-top: 50px;
+	text-align: center;
+	color: red;
+}
+.order{
+	font-size: 40px;
+}
+.resultaat{
+	grid-row: 5/6;
+	grid-column: 1/7;
+	margin: 0 auto;
+	display: none;
+}
+.resultaat p{
+	font-size: 30px;
+	padding-top: 20px;
+	padding: 0 margin;
+}
+.doorgaan{
+	font-size: 40px;
+	margin: 0 auto;
+}
